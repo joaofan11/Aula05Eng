@@ -1,0 +1,30 @@
+section {
+    display: -webkit-flex;
+    display: flex;
+    background-color: rgb(242, 245, 245);
+    height: 100vh;
+
+}
+
+nav {
+  -webkit-flex: 5;
+  -ms-flex: 5;
+  flex: 5;
+  background: linear-gradient(hsl(263, 100%, 50%),purple);
+  padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background: rgba(255, 255, 255, 0.473);
+    padding: 10px;
+    color: black;
+  }
+
